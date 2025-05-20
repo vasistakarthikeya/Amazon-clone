@@ -209,7 +209,7 @@ select{
 }
 
 .box1_img{
-    background-image: url(/assets/box1_image.jpg);
+    background-image: url(/assets/box1_image.png);
 }
 .box2_img{
     background-image: url(/assets/box2_image.jpg);
@@ -219,7 +219,7 @@ select{
 }
 
 .box4_img{
-    background-image: url(/assets/box4_image.jpg);
+    background-image: url(/assets/box4_image\ \(2\).jpg);
 }
 
 .box5_img{
@@ -234,4 +234,55 @@ select{
 
 .box8_img{
     background-image: url(/assets/box8_image.jpg);
+}
+
+        /*---------------------------------------------------------    Footer     ----------------------------------------------------------- */
+
+.bottom{
+    background-color:#232F3E;
+    height: 450px;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.bottom_cant{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    padding-top: 55px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+li{
+    margin-bottom: 10px;
+    list-style-type: none;
+    color: #DDDD;
+}
+
+h4{
+    padding-bottom: 10px;
+    padding-left: 38px;
+}
+
+hr{
+    color: #DDDD;
+    margin: 4px 0 0 ;
+    
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    color: #DDDD;
+    background-color: #131A22;
+    margin-top: 25px;
+    height: 100px;
+}
+
+.b-cobt{
+    padding: 3px;
 }
